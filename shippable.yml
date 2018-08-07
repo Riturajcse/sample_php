@@ -15,7 +15,7 @@ build:
   ci:
     - echo "printing env 12343331321533234reewewaasassdsdsssd3265re132443sdsd21ww"
     - printenv
-    - echo "build-number is $BUILD_NUMBER"
+    - echo "build-number is1 $BUILD_NUMBER"
     - echo "job-number $JOB_NUMBER"
     - if [ "$JOB_NUMBER" == "2" ]; then echo "hello $JOB_NUMBER"; fi
     - if [ "$JOB_NUMBER" == "2" ]; then echo "versionName=$BRANCH.$BUILD_NUMBER.$JOB_NUMBER" >> $JOB_STATE/box-nginx-2.env; fi
